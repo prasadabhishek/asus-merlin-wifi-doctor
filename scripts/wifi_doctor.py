@@ -115,7 +115,7 @@ def parse_airport_data(iface: str) -> dict:
             if stripped.endswith(":"):
                 if cur_other:
                     others.append(cur_other)
-                cur_other = {"ssid": stripped[:-1]}
+                cur_other = {}
             elif cur_other is not None and ":" in stripped:
                 k, v = [x.strip() for x in stripped.split(":", 1)]
                 cur_other[k] = v

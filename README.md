@@ -19,13 +19,7 @@ A reusable agent skill and Python CLI for diagnosing macOS Wi-Fi and home networ
 ## Install as an Agent Skill
 
 ```bash
-# Antigravity (global)
-git clone https://github.com/prasadabhishek/asus-merlin-wifi-doctor.git \
-  ~/.gemini/config/skills/asus-merlin-wifi-doctor
-
-# Or Claude Code / Codex
-git clone https://github.com/prasadabhishek/asus-merlin-wifi-doctor.git \
-  ~/.claude/skills/asus-merlin-wifi-doctor
+npx skills add prasadabhishek/asus-merlin-wifi-doctor
 ```
 
 ## Standalone CLI Usage (macOS)
