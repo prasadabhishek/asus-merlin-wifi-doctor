@@ -44,3 +44,6 @@ uv run scripts/wifi_doctor.py compare \
 ## License
 
 MIT
+
+---
+Built by [Abhishek Prasad](https://abhishekprasad.fyi)
